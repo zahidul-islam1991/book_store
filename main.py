@@ -1,4 +1,6 @@
 from add_books import add_books
+from view_books import view_books
+
 def main():
     while True:
         print("\nBook Store Management System")
@@ -11,7 +13,7 @@ def main():
         if choice == "1":
             add_books()
         elif choice == "2":
-            print("View All Books")
+            view_books()
         elif choice == "3":
             print("Delete Book")
         elif choice == "4":
