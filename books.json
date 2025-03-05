@@ -6,13 +6,5 @@
         "genre": "Test",
         "price": 130.0,
         "quantity": 2
-    },
-    {
-        "title": "Test-2",
-        "author": "Jahid",
-        "isbn": "1234",
-        "genre": "Bio",
-        "price": 200.0,
-        "quantity": 2
     }
 ]
