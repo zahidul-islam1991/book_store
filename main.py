@@ -1,5 +1,6 @@
 from add_books import add_books
 from view_books import view_books
+from remove_book import remove_book
 
 def main():
     while True:
@@ -15,7 +16,7 @@ def main():
         elif choice == "2":
             view_books()
         elif choice == "3":
-            print("Delete Book")
+            remove_book()
         elif choice == "4":
             print("Exit..")
             break
