@@ -6,5 +6,21 @@
         "genre": "Test",
         "price": 130.0,
         "quantity": 2
+    },
+    {
+        "title": "Hello",
+        "author": "Jack",
+        "isbn": "321",
+        "genre": "Comic",
+        "price": 250.0,
+        "quantity": 5
+    },
+    {
+        "title": "Test1232",
+        "author": "Jahid",
+        "isbn": "432",
+        "genre": "Horror",
+        "price": 212.0,
+        "quantity": 3
     }
 ]

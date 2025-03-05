@@ -17,7 +17,7 @@ def add_books():
         print("Error: Price must be a positive number.")
         return
     if not quantity.isdigit() or int(quantity) < 0:
-        print("Error: Quantity must be a non-negative integer.")
+        print("Error: Quantity must be a non-negative number.")
         return
 
     for book in books:
@@ -34,4 +34,4 @@ def add_books():
         "quantity": int(quantity)
     })
     save_books(books)
-    print("Book added successfully!")
+    print("\nBook added successfully!")
