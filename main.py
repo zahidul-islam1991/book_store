@@ -8,8 +8,8 @@ def main():
         print("\nBook Store Management System")
         print("1. Add Book")
         print("2. View Books")
-        print("3. Remove Book")
-        print("4. Search Book")
+        print("3. Search Book")
+        print("4. Remove Book")
         print("5. Exit")
         choice = input("Choose an option: ")
         
@@ -18,9 +18,9 @@ def main():
         elif choice == "2":
             view_books()
         elif choice == "3":
-            remove_book()
-        elif choice == "4":
             search_book()
+        elif choice == "4":
+            remove_book()
         elif choice == "5":
             print("Exit..")
             break
